@@ -1,12 +1,12 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
+     margin-top: 2em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+     /* Colors are in hexadecimal: http://www.colorpicker.com/ */     
+     color: #CC00AA;
 }
 
 /* this style exists to make it obvious that you've successfully linked
@@ -17,8 +17,8 @@ body {
 }
 
 .jumbotron {
-	position: relative;
-	background: none;
+     position: relative;
+     background: none;
 }
 
 .jumbotron:after {
@@ -30,7 +30,7 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;   
 }
 
 .jumbotron p {
@@ -39,4 +39,8 @@ body {
 
 .project a {
      text-align: center;
+}
+
+.jumbotron p.active {
+    color: #1f6ddd;
 }
