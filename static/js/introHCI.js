@@ -16,7 +16,7 @@ function initializePage()
         function (e)
         {
             $('.jumbotron h1').text("Javascript is connected");
-            $(this).text('Blam!');
+            $(this).text('kewl');
             $(".jumbotron p").toggleClass("active");
         });
 
